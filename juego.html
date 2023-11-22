@@ -1,0 +1,406 @@
+<!--Nieves Navas Aguilar 2º DAW-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Elden Ring</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+<body>
+    <!-- Menú Navbar -->
+    <nav class="navbar is-primary has-shadow" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <!--Logo-->
+                <img src="./img/logo.png" style="max-height: 100px;" alt="Logo">
+                <h1 class="title has-text-white">Buy Juegos</h1>
+            </a>
+            <!--Menú hamburguesa-->
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <span class="is-warning" aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span class="is-warning" aria-hidden="true"></span>
+            </a>
+        </div>
+        <!--Items del menú hamburguesa-->
+        <div id="navbarMenu" class="navbar-menu has-background-primary navbar-end has-shadow">
+            <nav class="navbar is-primary" role="navigation" aria-label="dropdown navigation">
+                <!--Son hoverable, al pasar por encima aparecen sus propios items-->
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Juegos
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Juegos Consolas
+                        </a>
+                        <a class="navbar-item">
+                            PC Juegos
+                        </a>
+                        <a class="navbar-item">
+                            Juegos Software
+                        </a>
+                        <a class="navbar-item">
+                            PlayStation
+                        </a>
+                    </div>
+            </nav>
+            <nav class="navbar is-primary" role="navigation" aria-label="dropdown navigation">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Informática
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Discos duros
+                        </a>
+                        <a class="navbar-item">
+                            PC Memoria
+                        </a>
+                        <a class="navbar-item">
+                            Redes
+                        </a>
+                        <a class="navbar-item">
+                            Portatiles
+                        </a>
+                    </div>
+            </nav>
+            <nav class="navbar is-primary" role="navigation" aria-label="dropdown navigation">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Móviles
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Telefonos
+                        </a>
+                        <a class="navbar-item">
+                            Smartphones
+                        </a>
+                        <a class="navbar-item">
+                            Accesorios
+                        </a>
+                    </div>
+            </nav>
+            <nav class="navbar is-primary" role="navigation" aria-label="dropdown navigation">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Electrónica
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Gadgets
+                        </a>
+                        <a class="navbar-item">
+                            Tarjetas de Memoria
+                        </a>
+                        <a class="navbar-item">
+                            Monitores & TV
+                        </a>
+                    </div>
+            </nav>
+            <nav class="navbar is-primary" role="navigation" aria-label="dropdown navigation">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Accesorios Nuevos
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Accesorios nuevos
+                        </a>
+                    </div>
+            </nav>
+        </div>
+    </nav>
+    <!--Fin del menú hamburguesa-->
+
+    <!--Inicio del container principal-->
+    <!--La distribución cambia según el tamaño de la pantalla-->
+    <section class="section my-2  is-4-desktop is-8-tablet is-12-mobile">
+        <div class="container">
+            <!--Buscador-->
+            <div class="columns is-9">
+                <div class="column mx-3">
+                    <div class="field has-addons">
+                        <p class="control is-expanded">
+                            <input class="input" type="text" placeholder="¿Qué búscas?">
+                        </p>
+                        <p class="control">
+                            <button class="button">
+                                <p></p> <img src="./img/lupa.png" class="icon">
+                                <p></p>
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin buscador-->
+        </div>
+    </section>
+
+    <!--Containers con información usando column en su propio section-->
+    <section class="section my-2">
+        <div class="container ">
+            <div class="columns ">
+                <div class="column has-background-primary has-text-centered p-5 m-3">
+                    <a href="http://127.0.0.1:5500/index.html#accion"><span>Acción</span></a>
+                </div>
+                <div class="column  has-background-primary has-text-centered p-5 m-3">
+                    <a href="http://127.0.0.1:5500/index.html#aventura"><span>Aventura</span></a>
+                </div>
+                <div class="column  has-background-primary has-text-centered p-5 m-3">
+                    <a href="http://127.0.0.1:5500/index.html#deportes"><span>Deportes</span></a>
+                </div>
+                <div class="column  has-background-primary has-text-centered p-5 m-3">
+                    <a href="http://127.0.0.1:5500/index.html#estrategia"><span>Estratégia</span></a>
+                </div>
+            </div>
+
+            <!--Fin de containers-->
+            <div class="columns is-9">
+                <div class="column mx-3">
+                    <section class="section my-2">
+                        <div class="container">
+                            <!--Inicio tabs-->
+                            <div class="tabs is-centered">
+                                <ul class="tabs-menu">
+                                    <!--Aquí están los tabs que se seleccionan-->
+                                    <li class="is-active" data-target="descripcion-tab"><a>Descripción</a></li>
+                                    <li data-target="imagenes-tab"><a>Dispositivos</a></li>
+                                    <li data-target="venta-tab"><a>Precio</a></li>
+                                    <li data-target="video-tab"><a>Jugabilidad</a></li>
+                                </ul>
+                            </div>
+                            <!--Aquí está el contenido de los tabs-->
+                            <div class="tab-content" id="descripcion-tab">
+                                <p class="title is-4">
+                                    Elden Ring
+                                </p>
+                                <h1 class="subtitle has-text-dark">Bienvenido a las Tierras Intermedias, el mundo de
+                                    Elden Ring</h1>
+                                <p class="text has-text-grey">
+                                    La historia de Elden Ring es la del Sinluz, un exiliado que regresa a un marchito y
+                                    enorme reino
+                                    conocido como las Tierras Intermedias. Su propósito: reclamar el poder del Círculo
+                                    de Elden. Una
+                                    gesta que lo enfrentará a criaturas de pesadilla y un cruel destino.
+
+                                    La leyenda cuenta que la decadencia de las Tierras Intermedias comenzó el día que el
+                                    propio el
+                                    Círculo de Elden, el origen del Árbol Áureo, fue destruido y reducido a fragmentos
+                                    de enorme
+                                    poder: las Grandes Runas.
+
+                                    Lamentablemente, la codicia de los mortales y el poder que todavía emitían aquellos
+                                    restos del
+                                    Círculo acabarán condenando al propio reino.
+
+                                    Tras destrucción del Círculo de Elden, los semidioses descendientes de la Reina
+                                    Márika, la Eterna,
+                                    reclamaron los fragmentos del Círculo y, corrompidos por su fuerza, iniciaron la
+                                    guerra de la
+                                    Devastación. Un acontecimiento que esparció el caos y la miseria. Y, en el proceso,
+                                    desató nuevos
+                                    males y terribles criaturas.
+
+                                    Por su parte, FromSoftware ha ofrecido una sinopsis muy en sintonía con la
+                                    ambientación del juego
+                                    a través de la web oficial de Elden Ring en la que se nos adelantan algunos de los
+                                    elementos
+                                    jugables de la aventura y la esencia rolera de la gesta del Sinluz.
+                                </p>
+                                <br>
+                                <h1 class="subtitle has-text-dark">El primer mundo abierto de FromSoftware es también la
+                                    evolución de la saga Souls</h1>
+                                <p class="text has-text-grey">
+                                    Miyazaki es muy concreto a la hora de definir la jugabilidad y el género de Elden
+                                    Ring: se trata
+                                    de un RPG de acción en tercera persona ambientado en un mundo abierto. Eso sí, como
+                                    dijimos, un
+                                    mundo abierto imaginado por George R. R. Martin y que irradia la identidad visual y
+                                    jugable de
+                                    FromSoftware. Un universo cruel y oscuro.
+
+                                    De hecho, y según palabras del creativo nipón, la mayor diferencia entre Elden Ring
+                                    y Sekiro,
+                                    es que el primero se centra mucho en la acción, mientras que el segundo enfatizará
+                                    los elementos
+                                    RPG. Incluso más que en la saga Dark Souls. Es más, el plan de FromSoftware es
+                                    atraer a una mayor
+                                    variedad de jugadores que el de sus oras anteriores.
+
+                                    De partida, Elden Ring no tiene un protagonista concreto como ocurre con Sekiro:
+                                    Shadows Die Twice.
+                                    Al igual que en Dark Souls, da la opción de diseñar y controlar al Sinluz, un
+                                    personaje único que
+                                    el jugador creará para la ocasión. Es más, versiones en desarrollo del Editor de
+                                    Personajes parecen
+                                    haberse filtrado y son bastante prometedoras.
+                                </p>
+                            </div>
+                            <div class="tab-content" id="imagenes-tab">
+                                    <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                        <tr>
+                                            <th></th> 
+                                            <th>RESOLUCIÓN</th> 
+                                            <th>FRAMERATE</th>
+                                            <th>HDR</th> 
+                                            <th>RAYTRACING</th> 
+                                        </tr>
+                                        <tr>
+                                            <td>PC</td>
+                                            <td>3840x2160p</td>
+                                            <td>60FPS</td>
+                                            <td>Sí</td>
+                                            <td>Sí</td>
+                                        </tr>
+                                        <tr>
+                                            <td>PS4</td>
+                                            <td>1920x1080p</td>
+                                            <td>30FPS</td>
+                                            <td>Sí</td>
+                                            <td>No</td>
+                                        </tr>
+                                        <tr>
+                                            <td>PS4 PRO</td>
+                                            <td>3200x1800p</td>
+                                            <td>30FPS</td>
+                                            <td>Sí</td>
+                                            <td>No</td>
+                                        </tr>
+                                        <tr>
+                                            <td>PS5</td>
+                                            <td>3840x2160p</td>
+                                            <td>30/60FPS</td>
+                                            <td>Sí</td>
+                                            <td>Sí</td>
+                                        </tr>
+                                        <tr>
+                                            <td>XBOX ONE</td>
+                                            <td>1600x900p</td>
+                                            <td>30FPS</td>
+                                            <td>No</td>
+                                            <td>No</td>
+                                        </tr>
+                                        <tr>
+                                            <td>XBOX ONE X</td>
+                                            <td>3840x2160p</td>
+                                            <td>30FPS</td>
+                                            <td>Sí</td>
+                                            <td>No</td>
+                                        </tr>
+                                        <tr>
+                                            <td>XOBX SERIES S</td>
+                                            <td>2560x1440p</td>
+                                            <td>30/60FPS</td>
+                                            <td>Sí</td>
+                                            <td>No</td>
+                                        </tr>
+                                        <tr>
+                                            <td>XBOX SERIES X</td>
+                                            <td>3840x2160p</td>
+                                            <td>30/60FPS</td>
+                                            <td>Sí</td>
+                                            <td>Sí</td>
+                                        </tr>
+                                    </table>
+                                
+                            </div>
+
+                            <div class="tab-content" id="venta-tab">
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-content">
+                                            <p class="title is-4">
+                                                Elden Ring
+                                            </p>
+                                            <div class="content has-text-grey">
+                                                <div class="level ">
+                                                    <div class="level-left">
+                                                        <p class="level-item">Comprar</p>
+                                                    </div>
+                                                    <div class="level-right">
+                                                        <p class="level-item">42.00€</p>
+                                                    </div>
+                                                </div>
+                                                <div class="level">
+                                                    <div class="level-left">
+                                                        <p class="level-item">Te lo compramos</p>
+                                                    </div>
+                                                    <div class="level-right">
+                                                        <p class="level-item">21.00€</p>
+                                                    </div>
+                                                </div>
+                                                <div class="level">
+                                                    <div class="level-left">
+                                                        <p class="level-item"> Puedes conseguir descuentos en otros juegos! </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="content is-vcentered">
+                                        <button class="button has-background-grey-dark ">Comprar</button>
+                                        <button class="button has-background-grey-light">Te lo compramos</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Aunque no formaban parte de bulma, vídeos para algunos trailers del juego-->
+                            <div class="tab-content" id="video-tab">
+                                <div class="has-text-centered">
+                                    <h1 class="subtitle">Elden Ring</h1>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CptaXqVY6-E?si=ej9-elHvY8CIR4l8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <br>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eVneoUAHemY?si=Cwaq0w-zLMK3VGVy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <br>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CptaXqVY6-E?si=pbVMIg-ksWzKFB76" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Final tabs-->
+                    </section>
+                </div>
+            </div>
+    </section>
+    <!--Fin de la sección principal-->
+
+
+    <!--Inicio del footer-->
+    <footer class="has-text-centered footer">
+        <!--Botones-->
+        <section class="section my-3">
+            <div class="container">
+                <!--Uso del level para la organización de los métodos de pago y las RRSS en sus iconos-->
+                <div class="level">
+                    <div class="level-left">
+                        <p class="level-item"><a href="">Sobre nosotros</a></p>
+                        <p class="level-item"><a href="">Vender un artículo</a></p>
+                        <p class="level-item"><a href="">Franquicias</a></p>
+                        <p class="level-item"><a href="">Prensa</a></p>
+                        <p class="level-item"><a href="">Blog</a></p>
+                    </div>
+                    <div class="level-right">
+                        <p class="level-item"><a href=""><img src="./img/instagram.png" class="icon"></a></p>
+                        <p class="level-item"><a href=""><img src="./img/gorjeo.png" class="icon"></a></p>
+                        <p class="level-item"><a href=""><img src="./img/youtube.png" class="icon"></a></p>
+                        <p class="level-item"><a href=""><img src="./img/facebook.png" class="icon"></a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <p class="has-text-grey mb-2">© Laura Ferrer - 2023 - Copyright ©</p>
+
+    </footer>
+    <!--Fin del footer-->
+</body>
+
+</html>

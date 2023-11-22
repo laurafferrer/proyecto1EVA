@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+$fullhd-enabled: false; //Eliminar el full-hd
+
+//Creación de clases para varios colores
+$verde: rgba(68, 108, 3, 0.646);
+$verde_oscuro: rgba(44, 59, 19, 0.973);
+$verde_claro: rgba(215, 244, 169, 0.8);
+$cafe: rgb(153, 102, 51);
+$cafe_claro: rgb(181, 123, 65);
+
+//Aplicación de dichas clases en los colores ya existentes en clases de bulma
+$grey-dark: $cafe;
+$grey-light: $cafe_claro;
+$link: $verde_oscuro;
+$primary: $verde;
+$info: $verde_claro;
+
+// Imports de bulma
+@import "./bulma-0.9.4/bulma/sass/utilities/_all.sass";
+@import "./bulma-0.9.4/bulma/sass/base/_all.sass";
+@import "./bulma-0.9.4/bulma/sass/elements/_all.sass";
+@import "./bulma-0.9.4/bulma/sass/form/_all.sass";
+@import "./bulma-0.9.4/bulma/sass/components/_all.sass";
+@import "./bulma-0.9.4/bulma/sass/grid/_all.sass";
+@import "./bulma-0.9.4/bulma/sass/helpers/_all.sass";
+
+//Fuente de todo el documento
+body {
+    font-family: 'Lato', sans-serif;
+}
